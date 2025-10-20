@@ -1,0 +1,100 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Fugaz+One&family=Jost:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+
+*{
+    color:black;
+    font-family: "Roboto", sans-serif ;
+    font-weight: 600;
+    text-decoration: none;
+    display: block;
+    box-sizing: content-box;
+
+}
+
+body{
+    background-image: url(https://png.pngtree.com/thumb_back/fh260/background/20231218/pngtree-bright-colorful-retro-abstract-gradient-background-image_15518650.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+script {
+    display: none;
+  }
+title{
+    display:none;
+}
+
+#container{
+    background-color: aliceblue;
+    width: 700px;
+    height: 500px;
+    padding-bottom: 20px;
+    margin-top: 200px;
+    border: solid 3px ;
+    border-color: rgb(192, 192, 192);
+    border-radius: 20px;
+    box-shadow:  20px;
+    transition: background-color 400ms ease;
+
+    
+}
+
+#title{
+    text-align: center;
+    text-transform:uppercase;
+    text-decoration:wavy;
+
+
+
+}
+
+#color-box{
+    background-color: aqua ;
+    width:500px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 100px;
+    border: solid 2px;
+    border-color: rgb(192, 192, 192);
+    border-radius: 42px;
+    box-shadow:4px 2px 1px  gray ;
+    position: relative;
+    top:50px;
+    transition: background-color 400ms ease;
+
+
+    
+
+    
+}
+
+#change-color-btn{
+    background-color: rgb(48, 48, 214);
+    border: solid 1px;
+    border-color:rgb(231, 230, 230) ;
+    color: aliceblue;
+    border-radius: 10px;
+    height: 40px;
+    width:100px;
+    
+
+}
+#change-color-btn:hover{
+    cursor: pointer;
+    height:45px;
+    width:105px;
+    text-decoration: lightgreen;
+    
+
+}
+#change-color-btn:active{
+    background-color: aquamarine;
+}
+
+
