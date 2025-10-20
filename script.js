@@ -1,6 +1,7 @@
 const button = document.getElementById("change-color-btn");
 const color = document.getElementById("color-box");
 const container = document.getElementById("container");
+const title = document.getElementById("title");
 //i have used arrow function because it is modern and it become a best practice
 //mistake: math should Math
 //there is a differnce between "" and ``
@@ -12,6 +13,10 @@ const getRandomColor = () =>{
     return p ;
 }
 //i want to see how event propagation actually occur here 
+title.addEventListener("abort", () =>{
+    let o = getRandomColor();
+    title.style.color = o ;
+})
 container.addEventListener("click",() =>{
     let newcolorr = getRandomColor();
     container.style.backgroundColor = newcolorr ;
